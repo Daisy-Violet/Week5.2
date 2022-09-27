@@ -11,26 +11,16 @@
 #logo {
     width: 192px;
     height: 35px;
-    left: 0px;
-    right: 70.58%;
-    top: 10px;
-    margin: 4px;
 }
 #logo2 {
     height: 65px;
     width: 298px;
 }
 #phone {
-    left: 8.8%;
-    right: 4.17%;
-    top: 6%;
-    bottom: 10.29%;
+    width: 21px;
 }
 #phoneus {
     height: 24px;
-    left: 17.19%;
-    right: 0%;
-    top: 2.33px;
 
     font-family: "Manrope";
     font-style: normal;
