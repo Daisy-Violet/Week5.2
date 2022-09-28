@@ -75,11 +75,20 @@ a:visited {
 .button:hover {
     background-color: #324a50;
 }
-section {
+main {
     background-color: rgba(235, 243, 245, 1);
-    height: 885px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 60%;
     }
-#exclamation {
+.box1 {
     font-family: "Manrope", Times, sans-serif;
     font-weight: 400; 
     font-size: 17px;
@@ -87,15 +96,9 @@ section {
     letter-spacing: 1.5px;
     text-transform: uppercase;
     color: #5c8692;
-    padding-top: 200px;
-    padding-left: 120px;
 }
 p {
     height: 92px;
-    left: 0%;
-    right: 18.41%;
-    top: 261.5px;
-    padding-left: 120px;
 
     font-family: "Manrope", Times, sans-serif;
     font-weight: 400; 
@@ -103,7 +106,7 @@ p {
     line-height: 30px;
     color: #555555;
 }
-#welcome {
+.box2 {
     font-family: 'Playfair Display', serif;
     font-style: normal;
     font-weight: 400;
@@ -111,17 +114,10 @@ p {
     line-height: 72px;
     letter-spacing: 0.66px;
     color: #141414;
-    padding-left: 120px;
 }
-#buttom2 {
-    margin-top: 20px;
-    padding-left: 120px;
-}
-#woman {
-    position: absolute;
-    width: 550px;
-    left: 698px;
-    top: 260px;
+aside {
+    width: 40%;
+    align-self: flex-end;
 }
 footer {
     font-family: 'Playfair Display', Times, sans-serif;
