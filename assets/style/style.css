@@ -80,14 +80,15 @@ main {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 .wrapper {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    justify-content: space-around;
+    align-items: flex-start;
     width: 60%;
-    }
+}
 .box1 {
     font-family: "Manrope", Times, sans-serif;
     font-weight: 400; 
@@ -117,7 +118,6 @@ p {
 }
 aside {
     width: 40%;
-    align-self: flex-end;
 }
 footer {
     font-family: 'Playfair Display', Times, sans-serif;
